@@ -1,0 +1,5 @@
+2025-06-05 19:25:09.723 [info] Extension host with pid 240 started
+2025-06-05 19:25:10.021 [info] Lock '/home/elizabeth/.vscode-server/data/User/workspaceStorage/df910bc1c9ea7281ddf2386c0db77e6e/vscode.lock': Lock acquired.
+2025-06-05 21:49:20.095 [info] Extension host terminating: received terminate message from renderer
+2025-06-05 21:49:20.097 [info] Lock '/home/elizabeth/.vscode-server/data/User/workspaceStorage/df910bc1c9ea7281ddf2386c0db77e6e/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-06-05 21:49:20.694 [info] Extension host with pid 240 exiting with code 0
