@@ -1,0 +1,41 @@
+2025-06-07 07:17:30.584 [info] 
+
+
+
+
+2025-06-07 07:17:30.585 [info] Extension host agent started.
+2025-06-07 07:17:31.210 [info] [127.0.0.1][18679857][ManagementConnection] New connection established.
+2025-06-07 07:17:31.213 [info] [127.0.0.1][a150c464][ExtensionHostConnection] New connection established.
+2025-06-07 07:17:31.314 [info] ComputeTargetPlatform: linux-x64
+2025-06-07 07:17:31.422 [info] Installing extensions...
+2025-06-07 07:17:31.650 [info] ComputeTargetPlatform: linux-x64
+2025-06-07 07:17:31.726 [info] [127.0.0.1][a150c464][ExtensionHostConnection] <153> Launched Extension Host Process.
+2025-06-07 07:17:41.531 [info] Downloaded extension to file:///home/elizabeth/.vscode-server/data/CachedExtensionVSIXs/75350011-6255-416e-8e4a-2fa1b66cfe27
+2025-06-07 07:17:41.716 [info] Installing extension: github.vscode-pull-request-github {"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/elizabeth/.vscode-server/extensions/extensions.json","external":"file:///home/elizabeth/.vscode-server/extensions/extensions.json","path":"/home/elizabeth/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.100.3","date":"2025-06-02T13:30:54.273Z"}}
+2025-06-07 07:17:42.340 [info] Installing extension 'ms-ceintl.vscode-language-pack-pt-br'...
+2025-06-07 07:17:42.372 [info] Extracted extension to file:///home/elizabeth/.vscode-server/extensions/github.vscode-pull-request-github-0.110.0: github.vscode-pull-request-github
+2025-06-07 07:17:42.515 [info] Rename failed because of EACCES: permission denied, rename '/home/elizabeth/.vscode-server/extensions/.380d4f3f-3c54-47fa-ad76-407f669a7d99' -> '/home/elizabeth/.vscode-server/extensions/github.vscode-pull-request-github-0.110.0'. Deleted from extracted location {"$mid":1,"fsPath":"/home/elizabeth/.vscode-server/extensions/.380d4f3f-3c54-47fa-ad76-407f669a7d99","path":"/home/elizabeth/.vscode-server/extensions/.380d4f3f-3c54-47fa-ad76-407f669a7d99","scheme":"file"}
+2025-06-07 07:17:42.568 [error] Error while installing the extension github.vscode-pull-request-github EACCES: permission denied, rename '/home/elizabeth/.vscode-server/extensions/.380d4f3f-3c54-47fa-ad76-407f669a7d99' -> '/home/elizabeth/.vscode-server/extensions/github.vscode-pull-request-github-0.110.0' file:///home/elizabeth/.vscode-server/extensions/extensions.json
+2025-06-07 07:17:42.584 [info] Getting Manifest... ms-ceintl.vscode-language-pack-pt-br
+2025-06-07 07:17:42.604 [info] Installing extension: ms-ceintl.vscode-language-pack-pt-br {"isMachineScoped":true,"isBuiltin":false,"installGivenVersion":false,"isApplicationScoped":true,"profileLocation":{"$mid":1,"fsPath":"/home/elizabeth/.vscode-server/extensions/extensions.json","external":"file:///home/elizabeth/.vscode-server/extensions/extensions.json","path":"/home/elizabeth/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.100.3","date":"2025-06-02T13:30:54.273Z"}}
+2025-06-07 07:18:13.971 [info] Extension signature verification result for ms-ceintl.vscode-language-pack-pt-br: Success. Internal Code: 0. Executed: true. Duration: 20696ms.
+2025-06-07 07:18:14.311 [info] Extracted extension to file:///home/elizabeth/.vscode-server/extensions/ms-ceintl.vscode-language-pack-pt-br-1.100.2025051409: ms-ceintl.vscode-language-pack-pt-br
+2025-06-07 07:18:14.366 [info] Rename failed because of EACCES: permission denied, rename '/home/elizabeth/.vscode-server/extensions/.8015b35b-1f70-4726-81ae-acc02c1d022b' -> '/home/elizabeth/.vscode-server/extensions/ms-ceintl.vscode-language-pack-pt-br-1.100.2025051409'. Deleted from extracted location {"$mid":1,"fsPath":"/home/elizabeth/.vscode-server/extensions/.8015b35b-1f70-4726-81ae-acc02c1d022b","path":"/home/elizabeth/.vscode-server/extensions/.8015b35b-1f70-4726-81ae-acc02c1d022b","scheme":"file"}
+2025-06-07 07:18:14.659 [error] Error while installing the extension ms-ceintl.vscode-language-pack-pt-br EACCES: permission denied, rename '/home/elizabeth/.vscode-server/extensions/.8015b35b-1f70-4726-81ae-acc02c1d022b' -> '/home/elizabeth/.vscode-server/extensions/ms-ceintl.vscode-language-pack-pt-br-1.100.2025051409' file:///home/elizabeth/.vscode-server/extensions/extensions.json
+2025-06-07 07:18:14.660 [error] Error while installing extension ms-ceintl.vscode-language-pack-pt-br: EACCES: permission denied, rename '/home/elizabeth/.vscode-server/extensions/.8015b35b-1f70-4726-81ae-acc02c1d022b' -> '/home/elizabeth/.vscode-server/extensions/ms-ceintl.vscode-language-pack-pt-br-1.100.2025051409'
+2025-06-07 07:18:14.660 [error] Error: Failed Installing Extensions: ms-ceintl.vscode-language-pack-pt-br
+    at Ll.installExtensions (file:///home/elizabeth/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/out/server-main.js:67:35504)
+    at async DD.s (file:///home/elizabeth/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/out/server-main.js:183:101412)
+    at async DD.m (file:///home/elizabeth/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/out/server-main.js:183:100319)
+    at async DD.scanExtensions (file:///home/elizabeth/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/out/server-main.js:183:100180)
+    at async RD.call (file:///home/elizabeth/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/out/server-main.js:183:103129)
+2025-06-07 07:18:15.671 [error] Error: EACCES: permission denied, rename '/home/elizabeth/.vscode-server/extensions/.8015b35b-1f70-4726-81ae-acc02c1d022b' -> '/home/elizabeth/.vscode-server/extensions/ms-ceintl.vscode-language-pack-pt-br-1.100.2025051409'
+    at async Object.rename (node:internal/fs/promises:782:10)
+    at async Object.LC (file:///home/elizabeth/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/out/server-main.js:43:5924)
+    at async yf.G (file:///home/elizabeth/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/out/server-main.js:55:24768)
+    at async yf.extractUserExtension (file:///home/elizabeth/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/out/server-main.js:55:21846)
+    at async kl.wb (file:///home/elizabeth/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/out/server-main.js:55:15397)
+2025-06-07 07:18:26.020 [error] #12: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+2025-06-07 07:18:38.689 [error] #13: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+2025-06-07 14:42:35.862 [info] [127.0.0.1][18679857][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-06-07 14:42:41.726 [info] [127.0.0.1][a150c464][ExtensionHostConnection] <153> Extension Host Process exited with code: 0, signal: null.

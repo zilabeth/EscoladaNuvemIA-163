@@ -1,2 +1,5 @@
 2025-06-06 21:46:14.874 [info] Extension host with pid 137 started
 2025-06-06 21:46:14.992 [info] Lock '/home/elizabeth/.vscode-server/data/User/workspaceStorage/df910bc1c9ea7281ddf2386c0db77e6e/vscode.lock': Lock acquired.
+2025-06-06 22:29:19.374 [info] Extension host terminating: received terminate message from renderer
+2025-06-06 22:29:19.383 [info] Lock '/home/elizabeth/.vscode-server/data/User/workspaceStorage/df910bc1c9ea7281ddf2386c0db77e6e/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-06-06 22:29:19.387 [info] Extension host with pid 137 exiting with code 0
